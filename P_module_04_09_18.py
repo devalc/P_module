@@ -16,6 +16,7 @@ and
 3. "DEVELOPMENT OF A COUPLED WEPP-WQ MODEL" chapter from Phd thesis 
 "CLIMATE CHANGE IMPACTS ON SOIL EROSION AND NUTRIENT LOSSES IN THE 
 GREAT LAKES REGION" by Wang, 2015.
+4. http://graham.umich.edu/media/files/How_SWAT_models_P.pdf
 
  
 
