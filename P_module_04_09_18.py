@@ -341,15 +341,16 @@ elif stable_minP > 4 * active_minP:
 
 
 W_perc_surf = data['Percolation(mm)']
-#solP_10mm = 1
+#solP_10mm = 1  ####### This value should be used in the formula below. how do 
+#we partition the solP into solP that is in top 10mm of the soil profile?
 #B_d = 1.3 
 #dpth = 200
+
 Kd_perc = 10 #The value can range from 10.0 to 17.5. default is 10
 
 P_perc = (solP * W_perc_surf) / (10 * B_d * lyr_dpth * Kd_perc)
 
 data['P_percolation(Kg P /ha)'] = P_perc
-
 
 
             ### Phosphorus Uptake by Plants
