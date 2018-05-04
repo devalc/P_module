@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
                         # Read data
 #############################################################################
 
-data= pd.read_excel('C:/Chinmay/Github/P_module/dummy_data.xlsx')
+data= pd.read_excel('D:/Github/P_module/dummy_data.xlsx')
 
 
 #############################################################################
@@ -488,10 +488,10 @@ data['Sediment P (Kg P /ha)'] = SedP_surf
 #                                # Some plots
 ##############################################################################
 #
-#plt.plot( 'Date', 'P_percolation(Kg P /ha)', data=data, color='red', label = 'Perc_P')
-#plt.xlabel('Time')
-#plt.ylabel('Phosphorus [Kg P/ha]')
-#plt.legend(prop={'size': 8})
+plt.plot( 'Date', 'P_percolation(Kg P /ha)', data=data, color='red', label = 'Perc_P')
+plt.xlabel('Time')
+plt.ylabel('Phosphorus [Kg P/ha]')
+plt.legend(prop={'size': 8})
 #
 #plt.plot( 'Date', 'SolubleP(Kg P /ha)', data=data, color='blue', label = 'SolP')
 #plt.xlabel('Time')
